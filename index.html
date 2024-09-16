@@ -8,7 +8,7 @@
   </head>
   <body>
     <!-- header section  -->
-    <header>
+    <header id="header">
       <h1>welcome to serene sip</h1>
       <p>Indulge in the finest coffee experience crafted just for you.</p>
       <a href="#">Explore Our Menu</a>
@@ -18,16 +18,16 @@
     <nav>
       <ul>
         <li><a href="#">Home</a></li>
-        <li><a href="#">Menu</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#our-menu">Menu</a></li>
+        <li><a href="#about-us">About Us</a></li>
+        <li><a href="#contact-us">Contact</a></li>
       </ul>
     </nav>
 
     <!-- our menu section  -->
     <section id="our-menu">
       <h2>Our Menu</h2>
-      <div class="Menu">
+      <div class="menu">
         <h3>Coffee Selections</h3>
         <div class="card">
           <img class="card-img-top" src="img/Cup-1.jpg" alt="" />
@@ -70,7 +70,7 @@
         </div>
       </div>
 
-      <div class="Menu">
+      <div class="menu">
         <h3>Delicious Snacks</h3>
         <div class="card">
           <img class="card-img-top" src="img/Snack-1.jpg" alt="" />
@@ -147,17 +147,35 @@
     </section>
 
     <!-- contact section  -->
-    <section id="=Contact-us">
+    <section id="contact-us">
       <h2>Contact Us</h2>
       <p>
         We'd love to hear from you! Reach out to us with any questions,
         feedback, or special requests.
       </p>
+      <form action="">
+        <div>
+          <label for="">Your Name</label>
+          <input type="text" name="" id="" />
+        </div>
+        <div>
+          <label for="">Your Email</label>
+          <input type="email" name="" id="" />
+        </div>
+        <div>
+          <label for="">Your Message</label>
+          <textarea name="" id=""></textarea>
+        </div>
+        <div>
+          <input type="submit" value="Send Message" />
+        </div>
+      </form>
     </section>
 
     <!-- Footer Section -->
     <footer>
-      <p>copyright 2024. All rights reserved.</p>
+      <p>copyright &COPY; 2024. All rights reserved.</p>
+      <a href="#header">&uarr;</a>
     </footer>
   </body>
 </html>
